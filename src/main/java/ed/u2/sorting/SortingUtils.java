@@ -57,7 +57,7 @@ public class SortingUtils {
     }
 
     /**
-     * Imprime un arreglo en consola.
+     * Imprime un arreglo en consola
      */
     public static void imprimirArreglo(int[] arreglo) {
         System.out.println(arregloATexto(arreglo));

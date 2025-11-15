@@ -1,13 +1,6 @@
 package ed.u2.sorting;
 
-/**
- * Implementación del algoritmo de ordenación por Inserción (Insertion Sort).
- *
- * Características:
- * - Estable: mantiene el orden relativo de elementos iguales
- * - In-place: ordena el arreglo sin crear uno nuevo
- * - Complejidad: O(n²) en peor caso, O(n) en mejor caso (arreglo ordenado)
- */
+
 public class InsertionSort {
 
     /**

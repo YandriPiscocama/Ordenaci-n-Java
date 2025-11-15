@@ -1,19 +1,10 @@
 package ed.u2.sorting;
 
-/**
- * Implementación del algoritmo de ordenación Burbuja (Bubble Sort).
- * Incluye optimización de corte temprano.
- *
- * Características:
- * - Estable: mantiene el orden relativo de elementos iguales
- * - In-place: ordena el arreglo sin crear uno nuevo
- * - Complejidad: O(n²) en peor caso, O(n) en mejor caso con corte temprano
- * - Optimización: Detiene la ejecución si no hay intercambios en una pasada
- */
+
 public class BubbleSort {
 
     /**
-     * Ordena el arreglo usando Bubble Sort con corte temprano.
+     * Ordena el arreglo usando BubbleSort con corte temprano.
      * Modifica el arreglo original (in-place).
      */
     public static void sort(int[] a) {
